@@ -73,7 +73,7 @@
                 <td>124,678</td>
             </tr>
             <tr>
-                <td></td>
+                <td>Transfer of provision for revaluation on the disposal of equity investments</td>
                 <td>–</td>
                 <td>–</td>
                 <td>–</td>
@@ -345,8 +345,8 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td></td>
+                <td></td>
             </tr>
             <tr class="font_bold">
                 <td>Transactions with owners of the Company</td>

@@ -29,7 +29,7 @@ use yii\helpers\Html;
     <tr>
         <td>Transformer capacity of substations, GVA</td>
         <td>782</td>
-        <td>92</td>
+        <td>792</td>
     </tr>
 </table>
 

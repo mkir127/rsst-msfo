@@ -29,7 +29,7 @@ use yii\helpers\Html;
     <tr>
         <td>Трансформаторная мощность подстанций, ГВА</td>
         <td>782</td>
-        <td>92</td>
+        <td>792</td>
     </tr>
 </table>
 

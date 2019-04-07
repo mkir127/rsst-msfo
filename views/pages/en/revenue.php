@@ -15,7 +15,7 @@ use yii\helpers\Html;
         <?=\app\widgets\Metric::widget([
             'lang'=>'en',
             'major'=>false,
-            'year'=>'2017*',
+            'year'=>'2017',
             'value'=>948.3,
             'max_value'=>1021.6
         ])?>
@@ -29,7 +29,7 @@ use yii\helpers\Html;
         <div class="metric-ci__graph">
             <div class="metric-ci__circle"></div>
         </div>
-        <div class="metric-ci__value">&nbsp;80.8%</div>
+        <div class="metric-ci__value">&nbsp;81%</div>
     </div>
 
     <div class="metric-ci">
@@ -37,7 +37,7 @@ use yii\helpers\Html;
         <div class="metric-ci__graph">
             <div class="metric-ci__circle metric-ci__circle_l2"></div>
         </div>
-        <div class="metric-ci__value">&nbsp;11.7%</div>
+        <div class="metric-ci__value">&nbsp;12%</div>
     </div>
 
     <div class="metric-ci">
@@ -45,25 +45,20 @@ use yii\helpers\Html;
         <div class="metric-ci__graph">
             <div class="metric-ci__circle metric-ci__circle_l3"></div>
         </div>
-        <div class="metric-ci__value">&nbsp;5.2%</div>
+        <div class="metric-ci__value">&nbsp;5%</div>
     </div>
 
     <div class="metric-ci">
-        <div class="metric-ci__title">Other&nbsp;revenue**</div>
+        <div class="metric-ci__title">Other&nbsp;revenue*</div>
         <div class="metric-ci__graph">
             <div class="metric-ci__circle metric-ci__circle_l4"></div>
         </div>
-        <div class="metric-ci__value">&nbsp;2.9%</div>
+        <div class="metric-ci__value">&nbsp;2%</div>
     </div>
 </div>
 
-<div class="footnote">
-    <div class="footnote__num">*</div>
-    <div class="footnote__text">Some of the 2017 indicators are recalculated to take into account retroactive adjustments to the current accounting policy (primarily a change in the value of FGC UES’s fixed assets due to an adjustment to cash flows from network connection services as measured by an impairment test).</div>
-</div>
-
     <div class="footnote">
-        <div class="footnote__num">**</div>
+        <div class="footnote__num">*</div>
         <div class="footnote__text">Other revenue mainly includes revenue from construction services, leases, and repair and maintenance services.</div>
     </div>
 

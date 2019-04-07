@@ -15,7 +15,7 @@ use yii\helpers\Html;
         <?=\app\widgets\Metric::widget([
             'lang'=>'ru',
             'major'=>false,
-            'year'=>'2017*',
+            'year'=>'2017',
             'value'=>948.3,
             'max_value'=>1021.6
         ])?>
@@ -29,7 +29,7 @@ use yii\helpers\Html;
         <div class="metric-ci__graph">
             <div class="metric-ci__circle"></div>
         </div>
-        <div class="metric-ci__value">&nbsp;80,8%</div>
+        <div class="metric-ci__value">&nbsp;81%</div>
     </div>
 
     <div class="metric-ci">
@@ -37,7 +37,7 @@ use yii\helpers\Html;
         <div class="metric-ci__graph">
             <div class="metric-ci__circle metric-ci__circle_l2"></div>
         </div>
-        <div class="metric-ci__value">&nbsp;11,7%</div>
+        <div class="metric-ci__value">&nbsp;12%</div>
     </div>
 
     <div class="metric-ci">
@@ -45,25 +45,20 @@ use yii\helpers\Html;
         <div class="metric-ci__graph">
             <div class="metric-ci__circle metric-ci__circle_l3"></div>
         </div>
-        <div class="metric-ci__value">&nbsp;5,2%</div>
+        <div class="metric-ci__value">&nbsp;5%</div>
     </div>
 
     <div class="metric-ci">
-        <div class="metric-ci__title">Прочая&nbsp;выручка**</div>
+        <div class="metric-ci__title">Прочая&nbsp;выручка*</div>
         <div class="metric-ci__graph">
             <div class="metric-ci__circle metric-ci__circle_l4"></div>
         </div>
-        <div class="metric-ci__value">&nbsp;2,9%</div>
+        <div class="metric-ci__value">&nbsp;2%</div>
     </div>
 </div>
 
-<div class="footnote">
-    <div class="footnote__num">*</div>
-    <div class="footnote__text">Произведен перерасчет некоторых показателей за 2017 год с учетом ретроспективных корректировок в условиях действующей учетной политики (в основном изменение величины основных средств ПАО «ФСК ЕЭС» в связи с корректировкой денежных потоков от технологического присоединения при проведении теста на обесценение).</div>
-</div>
-
     <div class="footnote">
-        <div class="footnote__num">**</div>
+        <div class="footnote__num">*</div>
         <div class="footnote__text">В состав прочей выручки входит в основном выручка от строительных услуг, аренды, услуг по ремонту и техническому обслуживанию.</div>
     </div>
 

@@ -16,16 +16,10 @@ use yii\helpers\Html;
         <?=\app\widgets\Metric::widget([
             'lang'=>'en',
             'major'=>false,
-            'year'=>'2017*',
+            'year'=>'2017',
             'value'=>121.2,
             'max_value'=>124.7
         ])?>
 
     </div>
-
-    <div class="footnote">
-        <div class="footnote__num">*</div>
-        <div class="footnote__text">Some of the 2017 indicators are recalculated to take into account retroactive adjustments to the current accounting policy (primarily a change in the value of FGC UES’s fixed assets due to an adjustment to cash flows from network connection services as measured by an impairment test).</div>
-    </div>
-
 </div>

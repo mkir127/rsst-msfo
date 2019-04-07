@@ -7,14 +7,14 @@ $indicator_names = [
           'ebitda'=>'EBITDA',
           'costs'=>'Операционные расходы',
           'profit'=>'Чистая прибыль',
-          'flow'=>'ЧДП(ОД)**'
+          'flow'=>'ЧДП(ОД)*'
     ],
     'en' => [
         'revenue'=>'Revenue',
         'ebitda'=>'EBITDA',
         'costs'=>'Operating expenses',
         'profit'=>'Profit',
-        'flow'=>'NCFO**'
+        'flow'=>'NCFO*'
     ],
 ];
 
@@ -59,7 +59,7 @@ else $this->title = 'ГК Россети. Финансовая отчетнос�
 <div class="mp-top-line">
     <div class="mp-top-line__years">
         <ul>
-            <li><a class="ac_change-year" data-year="2017">2017*</a></li>
+            <li><a class="ac_change-year" data-year="2017">2017</a></li>
             <li><a class="ac_change-year" data-year="2018">2018</a></li>
         </ul>
     </div>
@@ -102,9 +102,7 @@ else $this->title = 'ГК Россети. Финансовая отчетнос�
 </div>
 <div class="clearfix"></div>
 <?php if($lang=='en') { ?>
-    <div class="mp-years-info">Some of the 2017 indicators are recalculated to take into account retroactive adjustments to the current accounting policy (primarily a change in the value of FGC UES’s fixed assets due to an adjustment to cash flows from network connection services as measured by an impairment test).</div>
     <div class="mp-metric-info">Net cash flows from operating activities</div>
 <?php } else { ?>
-<div class="mp-years-info">Произведен перерасчет некоторых показателей за 2017&nbsp;год с учетом ретроспективных корректировок в условиях действующей учетной политики (в&nbsp;основном изменение величины основных средств ПАО&nbsp;«ФСК&nbsp;ЕЭС» в связи с корректировкой денежных потоков от технологического присоединения при проведении теста на обесценение).</div>
-<div class="mp-metric-info">Чистый поток денежных средств от операционной деятельности</div>
+    <div class="mp-metric-info">Чистый поток денежных средств от операционной деятельности</div>
 <?php } ?>

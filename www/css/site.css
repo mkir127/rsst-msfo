@@ -301,7 +301,7 @@ li.footer__menu__print {
 
 .mp-metric-info:before {
     position: absolute;
-    content: '**';
+    content: '*';
     top: -5px;
     left: -19px;
     font-size: 18px;
