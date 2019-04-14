@@ -13,10 +13,10 @@ use app\assets\AppAsset;
 AppAsset::register($this);
 $this->registerJsFile('/js/common/common.js',  ['depends' => [\yii\web\JqueryAsset::className()]]);
 
-$lang = $this->params['lang'];
+$lang = isset($this->params['lang'])?$this->params['lang']:'ru';
 if($lang!='en' && $lang!='ru') $lang='ru';
 
-$page = $this->params['page'];
+$page = isset($this->params['page'])?$this->params['page']:'';
 
 $is_main_page = $this->params['main_page']?true:false;
 
@@ -60,7 +60,7 @@ else $main_tag_classes='';
         </div>
         <?php
         $main_menu_items = (new \app\models\MainMenu)->getMenuItems($lang);
-        $current_page=$this->params['current_page'];
+        $current_page=isset($this->params['current_page'])?$this->params['current_page']:'';
         ?>
         <ul>
             <?php
