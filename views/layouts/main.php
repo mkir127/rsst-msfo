@@ -18,7 +18,10 @@ if($lang!='en' && $lang!='ru') $lang='ru';
 
 $page = isset($this->params['page'])?$this->params['page']:'';
 
-$is_main_page = $this->params['main_page']?true:false;
+if(isset($this->params['main_page'])) {
+    $is_main_page = $this->params['main_page'] ? true : false;
+}
+else $is_main_page=false;
 
 $main_tag_classes = [];
 if($is_main_page) $main_tag_classes[]='main-page';
